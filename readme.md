@@ -1,3 +1,3 @@
 # Coding test
 
-Solutions to coding test
+Solutions to coding test.
