@@ -6,7 +6,6 @@ test('all users have been accounted for', async () => {
 
   // Act
   const actual = await solution()
-
   // Assert
   expect(actual.length).toBe(expected)
 })
