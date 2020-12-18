@@ -8,45 +8,6 @@
  */
 const got = require('got');
 
-// function solution () {
-//   var array_todo = [];
-//   var array_user = [];
-//   var final = [];
-//   var str = "";
-//   (async () => {
-//     try {
-//       const response_todo = await got('https://jsonplaceholder.typicode.com/todos');
-//       const response_user = await got('https://jsonplaceholder.typicode.com/users');
-  
-//       var obj_todo = JSON.parse(response_todo.body);
-//       var obj_user = JSON.parse(response_user.body);
-  
-//       array_todo.push(obj_todo);
-//       array_user.push(obj_user);
-//       array_todo = array_todo[0];
-//       array_user = array_user[0];
-      
-//       for (let i=0;i<array_user.length;i++) {
-//         var counter = 0;
-//         for(let j=0;j<array_todo.length;j++) {
-//           if((array_todo[j].id == array_user[i].id) && array_todo[j].completed == true) {
-//             counter++;
-//           }
-//           if((array_todo[j].id == array_user[i].id)) {
-//             str = '"{username: '+array_user[i].username+', completed: '+counter+'}"';
-//             var obj = JSON.parse(str);
-//             final.push(obj);
-//           }
-//         }
-//       }
-//     } catch (error) {
-//       console.log(error.response.body);
-//     }
-//   })(3000);
-//     console.log("herer");
-//     return final;
-// }
-
 async function solution() {
   var array_todo = [];
   var array_user = [];
