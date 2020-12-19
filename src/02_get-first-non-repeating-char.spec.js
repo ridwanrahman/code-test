@@ -11,3 +11,7 @@ test('Test 2 - "persuit is a good place to work"', () => {
 test('Test 3 - "we have free coffee"', () => {
   expect(solution('we have free coffee')).toBe('w')
 })
+
+test('Test 4 - "please hire me"', () => {
+  expect(solution('please hire me')).toBe('p')
+})
