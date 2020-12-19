@@ -8,7 +8,7 @@ function solution (pageNumber, itemsPerPage, pageData) {
   if (pageNumber==0 || pageNumber==-1) {
     pageNumber = 1;
   }
-  var result = data.slice((pageNumber - 1) * itemsPerPage, pageNumber * itemsPerPage);
+  var result = pageData.slice((pageNumber - 1) * itemsPerPage, pageNumber * itemsPerPage);
   if (result == "") {
     return null;
   } else {
